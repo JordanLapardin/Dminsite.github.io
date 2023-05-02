@@ -4,10 +4,10 @@
 <title>WORK IN PROGRESS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="css/stolen.css">
+<link rel="stylesheet" href="css/main.css">
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
@@ -16,73 +16,73 @@ body {font-family: "Lato", sans-serif}
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#capabilities" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CAPABILITIES</a>
-    <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+<div class="top">
+  <div class="bar CustomColor Dacard">
+    <a class="bar-item button ST-padding-large ST-hide-medium ST-hide-large ST-right" href="javascript:void(0)" onclick="NavFunk()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="bar-item button ST-padding-large">HOME</a>
+    <a href="#capabilities" class="bar-item button ST-padding-large ST-hide-small">CAPABILITIES</a>
+    <a href="#aboutme" class="bar-item button ST-padding-large ST-hide-small">ABOUT ME</a>
+    <a href="#contact" class="bar-item button ST-padding-large ST-hide-small">CONTACT</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#capabilities" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CAPABILITIES</a>
-  <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+<div id="thenavbar" class="bar-block CustomColor ST-hide ST-hide-large ST-hide-medium ST-top" style="margin-top:46px">
+  <a href="#capabilities" class="bar-item button ST-padding-large" onclick="NavFunk()">CAPABILITIES</a>
+  <a href="#aboutme" class="bar-item button ST-padding-large" onclick="NavFunk()">ABOUT ME</a>
+  <a href="#contact" class="bar-item button ST-padding-large" onclick="NavFunk()">CONTACT</a>
 </div>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="ST-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
+  <div class="mySlides ST-display-container ST-center">
     <img src="img/Green plant in grey.jpg" style="width:100%; height: 50%;">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <div class="ST-display-bottommiddle ST-container ST-text-white ST-padding-32 ST-hide-small">
       <h3>Ecology</h3>
       <p><b>Comprehensive ecological capabilities</b></p>   
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
+  <div class="mySlides ST-display-container ST-center">
     <img src="img/green hills sunrise (1).jpg" style="width:100%; height: 50%;">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <div class="ST-display-bottommiddle ST-container ST-text-white ST-padding-32 ST-hide-small">
       <h3>Soil and Water</h3>
       <p><b>Extensive suite of environmental services</b></p>    
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
+  <div class="mySlides ST-display-container ST-center">
     <img src="img/green hills sunrise (3).jpg" style="width:100%; height: 50%;">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <div class="ST-display-bottommiddle ST-container ST-text-white ST-padding-32 ST-hide-small">
       <h3>Construction Management</h3>
       <p><b>On- site construction environmental management</b></p>    
     </div>
   </div>
 
   <!-- The About Me Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="aboutme">
-    <h2 class="w3-wide">About Me</h2>
-    <p class="w3-opacity"><i>We love plants</i></p>
-    <p class="w3-justify">An experienced, published scientist, Dmitri brings an unparalleled level of customer service and attention to detail in all his projects. Dmitri managed over one hundred small, medium, and large-scale developments and habitat restoration programs at a local, state-wide, and national level. Major projects include ecological planning for linear infrastructure and major subdivisions. Medium projects include soil and groundwater investigations for airport civil works. Minor projects include habitat restoration plans, acid sulphate soil investigations, and koala habitat assessments for local developments.
+  <div class="ST-container ST-content ST-center ST-padding-64" style="max-width:800px" id="aboutme">
+    <h2 class="ST-wide">About Me</h2>
+    <p class="ST-opacity"><i>We love plants</i></p>
+    <p class="ST-justify">An experienced, published scientist, Dmitri brings an unparalleled level of customer service and attention to detail in all his projects. Dmitri managed over one hundred small, medium, and large-scale developments and habitat restoration programs at a local, state-wide, and national level. Major projects include ecological planning for linear infrastructure and major subdivisions. Medium projects include soil and groundwater investigations for airport civil works. Minor projects include habitat restoration plans, acid sulphate soil investigations, and koala habitat assessments for local developments.
       In 2010, Dmitri began a career in environmental science working as a researcher for the Sierra Nevada Research Institute at the University of California, Merced. In 2015 he began a career as an environmental scientist based in Tweed Heads, Australia. 
-      <div class="w3-row w3-padding-32">
-      <div class="w3-third">
+      <div class="ST-row ST-padding-32">
+      <div class="ST-third">
         <p>placeholder</p>
-        <img src="img/Australian dirt with.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <img src="img/Australian dirt with.jpg" class="ST-round ST-margin-bottom" alt="Random Name" style="width:60%">
       </div>
-      <div class="w3-third">
+      <div class="ST-third">
         <p>placeholder</p>
-        <img src="img/City with plants gro.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <img src="img/City with plants gro.jpg" class="ST-round ST-margin-bottom" alt="Random Name" style="width:60%">
       </div>
-      <div class="w3-third">
+      <div class="ST-third">
         <p>placeholder</p>
-        <img src="img/sunrise over huge sp.jpg" class="w3-round" alt="Random Name" style="width:60%">
+        <img src="img/sunrise over huge sp.jpg" class="ST-round" alt="Random Name" style="width:60%">
       </div>
     </div>
   </div>
   <!--Capiblities-->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width: 800px;" id="capabilities">
-    <h1 class="w3-wide">Capabilities</h1>
+  <div class="ST-container ST-content ST-center ST-padding-64" style="max-width: 800px;" id="capabilities">
+    <h1 class="ST-wide">Capabilities</h1>
     <h2>Ecology</h2>
     <h3>Comprehensive ecological capabilities including</h3>
     <p>* NSW BAM Accredited Assessor (BDAR, BSAR, BCAR)</p>
@@ -108,27 +108,27 @@ body {font-family: "Lato", sans-serif}
   </div>
 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Talk to us!</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
+  <div class="ST-container ST-content ST-padding-64" style="max-width:800px" id="contact">
+    <h2 class="ST-wide ST-center">CONTACT</h2>
+    <p class="ST-opacity ST-center"><i>Talk to us!</i></p>
+    <div class="ST-row ST-padding-32">
+      <div class="ST-col m6 ST-large ST-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
         <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
       </div>
-      <div class="w3-col m6">
+      <div class="ST-col m6">
         <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          <div class="ST-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="ST-half">
+              <input class="ST-input ST-border" type="text" placeholder="Name" required name="Name">
             </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            <div class="ST-half">
+              <input class="ST-input ST-border" type="text" placeholder="Email" required name="Email">
             </div>
           </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <input class="ST-input ST-border" type="text" placeholder="Message" required name="Message">
+          <button class="button CustomColor ST-section ST-right" type="submit">SEND</button>
         </form>
       </div>
     </div>
@@ -141,14 +141,14 @@ body {font-family: "Lato", sans-serif}
 
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="" target="_blank">Jordan Lapardin</a></p>
+<footer class="ST-container ST-padding-64 ST-center ST-opacity ST-light-grey ST-xlarge">
+  <i class="fa fa-facebook-official ST-hover-opacity"></i>
+  <i class="fa fa-instagram ST-hover-opacity"></i>
+  <i class="fa fa-snapchat ST-hover-opacity"></i>
+  <i class="fa fa-pinterest-p ST-hover-opacity"></i>
+  <i class="fa fa-twitter ST-hover-opacity"></i>
+  <i class="fa fa-linkedin ST-hover-opacity"></i>
+  <p class="ST-medium">Powered by <a href="" target="_blank">Jordan Lapardin</a></p>
 </footer>
 
 <script>
@@ -169,12 +169,12 @@ function carousel() {
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
+function NavFunk() {
+  var x = document.getElementById("thenavbar");
+  if (x.className.indexOf("ST-show") == -1) {
+    x.className += " ST-show";
   } else { 
-    x.className = x.className.replace(" w3-show", "");
+    x.className = x.className.replace(" ST-show", "");
   }
 }
 
